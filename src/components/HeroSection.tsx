@@ -12,10 +12,10 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80" 
-          alt="Featured Artwork" 
+          src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80" 
+          alt="Modern Classic Interior" 
           className="w-full h-full object-cover"
         />
       </div>
