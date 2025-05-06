@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/50 to-transparent z-10" />
         <img 
           src="https://images.unsplash.com/photo-1500673922987-e212871fec22?auto=format&fit=crop&q=80" 
           alt="Featured Artwork" 
@@ -23,27 +23,28 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-xl">
           <h1 
-            className={`text-4xl md:text-6xl font-bold text-white mb-4 transform transition-all duration-700 ${
+            className={`text-4xl md:text-6xl font-light text-white mb-6 transform transition-all duration-700 tracking-wide ${
               loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            Experience Art That Moves You
+            Experience Art <br />
+            <span className="font-bold">That Moves You</span>
           </h1>
           
           <p 
-            className={`text-lg md:text-xl text-white/90 mb-8 transform transition-all duration-700 delay-100 ${
+            className={`text-lg md:text-xl text-white/90 mb-10 transform transition-all duration-700 delay-100 font-light ${
               loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
             Unique canvas prints that transform your space with emotion and color
           </p>
           
-          <div className={`transform transition-all duration-700 delay-200 ${
+          <div className={`flex flex-wrap gap-4 transform transition-all duration-700 delay-200 ${
             loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}>
             <Button 
               asChild 
-              className="bg-white hover:bg-gray-100 text-black text-lg px-8 py-6 rounded-md mr-4"
+              className="bg-white hover:bg-gray-100 text-black text-sm px-8 py-6 rounded-none uppercase tracking-widest hover:shadow-lg transition-all"
             >
               <a 
                 href="https://dankoshi-canvas.printify.me/" 
@@ -57,7 +58,7 @@ const HeroSection = () => {
             <Button 
               asChild 
               variant="outline" 
-              className="border-2 border-white text-white hover:bg-white/10 text-lg px-8 py-6 rounded-md"
+              className="border-2 border-white text-white hover:bg-white/10 text-sm px-8 py-6 rounded-none uppercase tracking-widest"
             >
               <a href="#gallery">
                 Explore Art

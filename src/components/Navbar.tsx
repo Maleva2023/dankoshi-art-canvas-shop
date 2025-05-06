@@ -25,24 +25,24 @@ const Navbar = () => {
             className="h-12 w-auto"
           />
           <div className="font-bold text-lg md:text-2xl">
-            <a href="/" className="tracking-wide">
+            <a href="/" className="tracking-wider text-black">
               DANKOSHI<span className="text-gray-500">ART</span>
             </a>
           </div>
         </div>
         
-        <div className="hidden md:flex items-center gap-6">
-          <a href="#about" className="text-gray-600 hover:text-black transition-colors">
+        <div className="hidden md:flex items-center gap-8">
+          <a href="#about" className="text-gray-700 hover:text-black transition-colors text-sm uppercase tracking-wider font-medium">
             About
           </a>
-          <a href="#gallery" className="text-gray-600 hover:text-black transition-colors">
+          <a href="#gallery" className="text-gray-700 hover:text-black transition-colors text-sm uppercase tracking-wider font-medium">
             Gallery
           </a>
         </div>
         
         <Button 
           asChild 
-          className="bg-black hover:bg-gray-800 text-white rounded-md"
+          className="bg-black hover:bg-gray-800 text-white rounded-none px-6 py-2 text-xs uppercase tracking-widest font-medium transition-all duration-300 hover:shadow-lg"
         >
           <a 
             href="https://dankoshi-canvas.printify.me/" 
