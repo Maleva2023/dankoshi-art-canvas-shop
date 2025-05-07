@@ -40,7 +40,7 @@ const ArtworkDetails = () => {
             <div className="flex items-center mb-8">
               <div className="mr-4">
                 <p className="text-sm text-gray-500 uppercase tracking-wider">Starting at</p>
-                <p className="text-3xl font-light">$149.00</p>
+                <p className="text-3xl font-light">$94.50</p>
               </div>
               <Button 
                 asChild 
@@ -60,7 +60,7 @@ const ArtworkDetails = () => {
           <div className="order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?auto=format&fit=crop&q=80" 
+                src="/lovable-uploads/e6136f3b-b2ff-48a8-9fe9-e79bf648a18c.png" 
                 alt="Featured Dankoshi Artwork" 
                 className="w-full h-auto shadow-xl"
               />
