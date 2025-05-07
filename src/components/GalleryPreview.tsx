@@ -51,11 +51,6 @@ const GalleryPreview = () => {
       id: 3,
       imageUrl: "/lovable-uploads/4c177883-06ea-4642-9b2a-c000d7c5fb93.png",
       alt: "Canvas in bedroom"
-    },
-    {
-      id: 4,
-      imageUrl: "https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&q=80&w=800",
-      alt: "Canvas in hallway"
     }
   ];
 
