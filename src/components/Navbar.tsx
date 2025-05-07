@@ -25,8 +25,8 @@ const Navbar = () => {
             className="h-12 w-auto"
           />
           <div className="font-bold text-lg md:text-2xl">
-            <a href="/" className="tracking-wider text-black">
-              DANKOSHI<span className="text-white">ART</span>
+            <a href="/" className="tracking-wider text-white">
+              DANKOSHIART
             </a>
           </div>
         </div>
