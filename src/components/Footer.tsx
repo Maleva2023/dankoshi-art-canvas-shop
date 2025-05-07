@@ -19,7 +19,6 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">About the Artist</a></li>
               <li><a href="#gallery" className="text-gray-400 hover:text-white transition-colors text-sm">Gallery</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Shipping & Returns</a></li>
               <li><a href="https://dankoshi-canvas.printify.me/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a></li>
             </ul>
             <div className="mt-6">
