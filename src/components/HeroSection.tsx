@@ -32,7 +32,7 @@ const HeroSection = () => {
           </h1>
           
           <p 
-            className={`text-lg md:text-xl text-white/90 mb-10 transform transition-all duration-700 delay-100 font-light ${
+            className={`text-lg md:text-xl text-white mb-10 transform transition-all duration-700 delay-100 font-light ${
               loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
