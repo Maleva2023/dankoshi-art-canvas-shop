@@ -45,7 +45,6 @@ const FinalCTA = () => {
             <p className="text-sm text-gray-400 mb-2">Shipping Worldwide</p>
             <div className="flex gap-2 items-center justify-center">
               <Globe className="h-4 w-4 text-white/80" />
-              <p className="text-sm text-white">Free shipping on orders over $200</p>
             </div>
           </div>
         </div>
