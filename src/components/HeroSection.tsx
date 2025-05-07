@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 to-black/30 z-10" />
         <img 
-          src="https://images.unsplash.com/photo-1473177104440-ffee2f376098?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+          src="/lovable-uploads/672d1c1a-3101-4cce-8f64-5404f2ca7d1a.png" 
           alt="Vintage Artist Atelier" 
           className="w-full h-full object-cover"
         />
