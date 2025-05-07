@@ -18,22 +18,17 @@ const ArtistStatement = () => {
             <div className="w-16 h-[1px] bg-black mb-10"></div>
             
             <p className="text-lg text-gray-700 mb-8 leading-relaxed font-light">
-              Known professionally as Dankoshi, is a contemporary artist whose work 
-              explores the delicate balance between chaos and harmony. Drawing inspiration from natural landscapes, 
-              urban environments, and the subtle moments of everyday beauty that often go unnoticed, 
-              each piece invites viewers into a world of emotion and introspection.
+              Daniel Urbina (alias Dankoshi)
+              Born near Madrid, Dankoshi grew up as the fifth of eight siblings in a modest family. His name reflects his lifelong passion for martial arts, combining "Dan" from his name and "Koshi" in tribute to Gichin Funakoshi, the founder of Shoto-kan karate.
             </p>
             
             <p className="text-lg text-gray-700 mb-8 leading-relaxed font-light">
-              "My process begins with an emotion or a memory—something intangible that I'm trying to make 
-              visible," says Dankoshi. "I want each canvas to evoke a different feeling, to create a unique 
-              energy in the space where it lives."
+              Later in life, Dankoshi discovered his love for painting, inspired by artist and priest Don Francisco Hernández. Starting as a self-taught painter, he drew influence from Kandinsky, exploring bold forms and emotional expression through oil on canvas.
             </p>
             
             <p className="text-lg text-gray-700 mb-12 leading-relaxed font-light">
-              With a background in both traditional and digital art, Dankoshi's work represents a blend of 
-              techniques that create depth, movement, and emotional resonance. The Dankoshi canvas collection 
-              was established in 2015 as a way to share these visual journeys with a wider audience.
+              Dankoshi's art delves into life's raw emotions and daily realities, transforming them into visual stories. Each piece invites the viewer to uncover hidden characters, feelings, and narratives, sparking imagination and personal connection.
+              Since 2015, the Dankoshi canvas collection has shared these journeys with the world, always reminding us of his motto: "Put a Dankoshi in your life."
             </p>
             
             <div className="flex justify-start">
