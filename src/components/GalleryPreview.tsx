@@ -59,6 +59,8 @@ const GalleryPreview = () => {
     }
   ];
 
+  const shopUrl = "https://dankoshi-canvas.printify.me/";
+
   return (
     <section id="gallery" className="py-28">
       <div className="container mx-auto px-4 md:px-6">
@@ -88,6 +90,18 @@ const GalleryPreview = () => {
               } bg-gradient-to-t from-black/80 to-transparent`}>
                 <h3 className="text-white text-xl font-light tracking-wider">{artwork.title}</h3>
                 <p className="text-white/80 mt-2 font-light">{artwork.description}</p>
+                <Button 
+                  asChild 
+                  className="mt-4 bg-white hover:bg-gray-100 text-black text-xs uppercase tracking-wider py-2 px-4 rounded-none transition-all hover:shadow-md"
+                >
+                  <a 
+                    href={shopUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    Buy Now
+                  </a>
+                </Button>
               </div>
             </div>
           ))}
@@ -101,7 +115,7 @@ const GalleryPreview = () => {
               {lifestyleShots.map((shot) => (
                 <CarouselItem key={shot.id} className="md:basis-1/2 lg:basis-1/3">
                   <div className="p-1">
-                    <div className="overflow-hidden rounded-sm shadow-md">
+                    <div className="overflow-hidden rounded-sm shadow-md relative">
                       <img 
                         src={shot.imageUrl} 
                         alt={shot.alt}
@@ -110,6 +124,20 @@ const GalleryPreview = () => {
                         width="400"
                         height="400"
                       />
+                      <div className="absolute bottom-0 left-0 right-0 bg-black/70 p-3 text-center">
+                        <Button 
+                          asChild 
+                          className="bg-white hover:bg-gray-100 text-black text-xs uppercase tracking-wider py-1 px-4 rounded-none transition-all hover:shadow-md"
+                        >
+                          <a 
+                            href={shopUrl} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                          >
+                            Buy Now
+                          </a>
+                        </Button>
+                      </div>
                     </div>
                   </div>
                 </CarouselItem>
