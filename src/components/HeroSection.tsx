@@ -39,7 +39,7 @@ const HeroSection = () => {
             A stunning exploration of identity and emotion
           </p>
           
-          <div className={`flex flex-wrap gap-4 transform transition-all duration-700 delay-200 ${
+          <div className={`transform transition-all duration-700 delay-200 ${
             loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
           }`}>
             <Button 
@@ -52,16 +52,6 @@ const HeroSection = () => {
                 rel="noopener noreferrer"
               >
                 Buy Your Canvas Print
-              </a>
-            </Button>
-            
-            <Button 
-              asChild 
-              variant="outline" 
-              className="border-2 border-white text-white hover:bg-white/10 text-sm px-8 py-6 rounded-none uppercase tracking-widest"
-            >
-              <a href="#gallery">
-                View Collection
               </a>
             </Button>
           </div>
