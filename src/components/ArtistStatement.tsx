@@ -28,7 +28,7 @@ const ArtistStatement = () => {
             
             <p className="text-lg text-gray-700 mb-12 leading-relaxed font-light">
               Dankoshi's art delves into life's raw emotions and daily realities, transforming them into visual stories. Each piece invites the viewer to uncover hidden characters, feelings, and narratives, sparking imagination and personal connection.
-              Since 2015, the Dankoshi canvas collection has shared these journeys with the world, always reminding us of his motto: "Put a Dankoshi in your life."
+              Since 2015, the Dankoshi canvas collection has shared these journeys with the world, always reminding us of his motto: <span className="font-bold">"Put a Dankoshi in your life."</span>
             </p>
             
             <div className="flex justify-start">
