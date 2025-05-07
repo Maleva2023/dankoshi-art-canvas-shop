@@ -64,10 +64,6 @@ const ArtworkDetails = () => {
                 alt="Featured Dankoshi Artwork" 
                 className="w-full h-auto shadow-xl"
               />
-              <div className="absolute -bottom-4 -right-4 bg-white px-4 py-2 shadow-md">
-                <p className="text-sm text-gray-500 tracking-wider">Size Options</p>
-                <p className="text-sm font-medium">16×24″, 24×36″, 30×40″</p>
-              </div>
             </div>
           </div>
         </div>
