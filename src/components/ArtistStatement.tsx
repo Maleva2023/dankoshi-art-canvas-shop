@@ -18,8 +18,8 @@ const ArtistStatement = () => {
             <div className="w-16 h-[1px] bg-black mb-10"></div>
             
             <p className="text-lg text-gray-700 mb-8 leading-relaxed font-light">
-              Daniel Urbina (alias Dankoshi)
-              Born near Madrid, Dankoshi grew up as the fifth of eight siblings in a modest family. His name reflects his lifelong passion for martial arts, combining "Dan" from his name and "Koshi" in tribute to Gichin Funakoshi, the founder of Shoto-kan karate.
+              Daniel (alias Dankoshi)
+              Born near Madrid, grew up as the fifth of eight siblings in a modest family. His name reflects his lifelong passion for martial arts, combining "Dan" from his name and "Koshi" in tribute to Gichin Funakoshi, the founder of Shoto-kan karate.
             </p>
             
             <p className="text-lg text-gray-700 mb-8 leading-relaxed font-light">
