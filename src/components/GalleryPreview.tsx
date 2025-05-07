@@ -59,7 +59,7 @@ const GalleryPreview = () => {
   return (
     <section id="gallery" className="py-28">
       <div className="container mx-auto px-4 md:px-6">
-        <h2 className="text-3xl md:text-4xl font-light mb-2 text-center tracking-wide">Image <span className="font-bold">Gallery</span></h2>
+        <h2 className="text-xl md:text-2xl font-light mb-2 text-center tracking-wide">Image <span className="font-bold">Gallery</span></h2>
         <p className="text-gray-600 text-center mb-16 font-light">Explore Dankoshi's authentic artwork collection</p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
@@ -141,21 +141,6 @@ const GalleryPreview = () => {
             <CarouselPrevious className="left-0" />
             <CarouselNext className="right-0" />
           </Carousel>
-        </div>
-        
-        <div className="text-center">
-          <Button 
-            asChild 
-            className="bg-black hover:bg-gray-800 text-white px-10 py-6 rounded-none text-sm uppercase tracking-widest font-medium transition-all duration-300 hover:shadow-lg"
-          >
-            <a 
-              href="https://dankoshi-canvas.printify.me/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-            >
-              View Full Collection
-            </a>
-          </Button>
         </div>
       </div>
     </section>
