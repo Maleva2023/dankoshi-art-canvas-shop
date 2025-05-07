@@ -27,8 +27,8 @@ const HeroSection = () => {
               loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            Experience Art <br />
-            <span className="font-bold">That Moves You</span>
+            Put a Dankoshi <br />
+            <span className="font-bold">in your life</span>
           </h1>
           
           <p 
@@ -36,7 +36,7 @@ const HeroSection = () => {
               loaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            Unique canvas prints that transform your space with emotion and color
+            A stunning exploration of identity and emotion
           </p>
           
           <div className={`flex flex-wrap gap-4 transform transition-all duration-700 delay-200 ${
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                Shop Collection
+                Buy Your Canvas Print
               </a>
             </Button>
             
@@ -61,7 +61,7 @@ const HeroSection = () => {
               className="border-2 border-white text-white hover:bg-white/10 text-sm px-8 py-6 rounded-none uppercase tracking-widest"
             >
               <a href="#gallery">
-                Explore Art
+                View Collection
               </a>
             </Button>
           </div>

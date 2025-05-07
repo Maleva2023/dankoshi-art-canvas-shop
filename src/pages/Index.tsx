@@ -1,8 +1,11 @@
 
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import ArtworkDetails from "@/components/ArtworkDetails";
 import ArtistStatement from "@/components/ArtistStatement";
 import GalleryPreview from "@/components/GalleryPreview";
+import Testimonials from "@/components/Testimonials";
+import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import { useToast } from "@/components/ui/use-toast";
 import { useEffect } from "react";
@@ -22,8 +25,11 @@ const Index = () => {
     <div className="min-h-screen">
       <Navbar />
       <HeroSection />
-      <ArtistStatement />
+      <ArtworkDetails />
       <GalleryPreview />
+      <ArtistStatement />
+      <Testimonials />
+      <FinalCTA />
       <Footer />
     </div>
   );
