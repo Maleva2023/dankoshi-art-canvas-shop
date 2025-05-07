@@ -20,7 +20,7 @@ const Footer = () => {
               <li><a href="#about" className="text-gray-400 hover:text-white transition-colors text-sm">About the Artist</a></li>
               <li><a href="#gallery" className="text-gray-400 hover:text-white transition-colors text-sm">Gallery</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Shipping & Returns</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a></li>
+              <li><a href="https://dankoshi-canvas.printify.me/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a></li>
             </ul>
           </div>
           
@@ -46,7 +46,7 @@ const Footer = () => {
           <p className="text-xs text-gray-500 font-light tracking-wider mb-4 md:mb-0">© {currentYear} Dankoshi Art. All rights reserved.</p>
           <div className="flex items-center space-x-6">
             <a href="#" className="text-xs text-gray-500 hover:text-gray-300">Terms</a>
-            <a href="#" className="text-xs text-gray-500 hover:text-gray-300">Privacy</a>
+            <a href="https://dankoshi-canvas.printify.me/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-xs text-gray-500 hover:text-gray-300">Privacy</a>
           </div>
         </div>
       </div>
