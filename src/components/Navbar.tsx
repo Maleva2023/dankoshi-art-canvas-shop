@@ -26,7 +26,7 @@ const Navbar = () => {
           />
           <div className="font-bold text-lg md:text-2xl">
             <a href="/" className="tracking-wider text-black">
-              DANKOSHI<span className="text-gray-500">ART</span>
+              DANKOSHI<span className="text-white">ART</span>
             </a>
           </div>
         </div>
