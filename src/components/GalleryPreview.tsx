@@ -18,15 +18,15 @@ const GalleryPreview = () => {
   const featuredArt: ArtworkProps[] = [
     {
       id: 1,
-      title: "Chromatic Lips",
-      imageUrl: "/lovable-uploads/493df096-75b6-4597-a8b1-7b4ae62b96e4.png",
-      description: "Vibrant exploration of form and color"
+      title: "Geometric Portrait",
+      imageUrl: "/lovable-uploads/eae53bcf-5160-4bd9-bdd2-3920b3936d4a.png",
+      description: "Vibrant exploration of fragmented identity"
     },
     {
       id: 2,
-      title: "Moonlit Meditation",
-      imageUrl: "/lovable-uploads/601852a2-418f-4436-8c07-69b23ac9cb7c.png",
-      description: "Eastern philosophy meets cosmic harmony"
+      title: "Heart and Soul",
+      imageUrl: "/lovable-uploads/9ba7d43b-6c77-461b-9b91-1a7342afd468.png",
+      description: "A surreal blending of emotion and form"
     },
     {
       id: 3,
@@ -73,7 +73,7 @@ const GalleryPreview = () => {
               onMouseEnter={() => setHoveredId(artwork.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
-              <div className="aspect-[4/5] bg-gray-100">
+              <div className="aspect-[3/4] bg-gray-100">
                 <img
                   src={artwork.imageUrl}
                   alt={artwork.title}

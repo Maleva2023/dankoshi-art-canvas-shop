@@ -16,7 +16,7 @@ const Index = () => {
   useEffect(() => {
     toast({
       title: "Welcome to Dankoshi Art",
-      description: "New original artwork now available in our gallery!",
+      description: "New geometric portrait artwork now available!",
       duration: 5000,
     });
   }, [toast]);
