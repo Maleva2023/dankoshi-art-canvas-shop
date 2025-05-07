@@ -39,17 +39,17 @@ const GalleryPreview = () => {
   const lifestyleShots = [
     {
       id: 1,
-      imageUrl: "https://images.unsplash.com/photo-1499916078039-922301b0eb9b?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "/lovable-uploads/1e695af6-ba5b-4b39-b16e-ff6f020003f4.png",
       alt: "Canvas in living room"
     },
     {
       id: 2,
-      imageUrl: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "/lovable-uploads/72d1dd5b-576f-4a2c-aed5-1f84469c421c.png",
       alt: "Canvas in office space"
     },
     {
       id: 3,
-      imageUrl: "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?auto=format&fit=crop&q=80&w=800",
+      imageUrl: "/lovable-uploads/4c177883-06ea-4642-9b2a-c000d7c5fb93.png",
       alt: "Canvas in bedroom"
     },
     {
