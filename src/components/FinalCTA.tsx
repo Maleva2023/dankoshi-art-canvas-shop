@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { CreditCard, Globe, ShieldCheck } from "lucide-react";
 
 const FinalCTA = () => {
   return (
@@ -29,10 +30,12 @@ const FinalCTA = () => {
           <div className="text-center">
             <p className="text-sm text-gray-400 mb-2">Secure Payment</p>
             <div className="flex gap-3 justify-center">
-              <div className="w-10 h-10 bg-white/10 rounded-full"></div>
-              <div className="w-10 h-10 bg-white/10 rounded-full"></div>
-              <div className="w-10 h-10 bg-white/10 rounded-full"></div>
-              <div className="w-10 h-10 bg-white/10 rounded-full"></div>
+              <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                <CreditCard className="h-5 w-5 text-white/80" />
+              </div>
+              <div className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center">
+                <ShieldCheck className="h-5 w-5 text-white/80" />
+              </div>
             </div>
           </div>
           
@@ -40,7 +43,10 @@ const FinalCTA = () => {
           
           <div className="text-center">
             <p className="text-sm text-gray-400 mb-2">Shipping Worldwide</p>
-            <p className="text-sm text-white">Free shipping on orders over $200</p>
+            <div className="flex gap-2 items-center justify-center">
+              <Globe className="h-4 w-4 text-white/80" />
+              <p className="text-sm text-white">Free shipping on orders over $200</p>
+            </div>
           </div>
         </div>
       </div>
