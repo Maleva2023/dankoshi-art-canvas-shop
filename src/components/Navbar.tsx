@@ -32,10 +32,10 @@ const Navbar = () => {
         </div>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#about" className="text-gray-700 hover:text-black transition-colors text-sm uppercase tracking-wider font-medium">
+          <a href="#about" className="text-white hover:text-white/80 transition-colors text-sm uppercase tracking-wider font-medium">
             About
           </a>
-          <a href="#gallery" className="text-gray-700 hover:text-black transition-colors text-sm uppercase tracking-wider font-medium">
+          <a href="#gallery" className="text-white hover:text-white/80 transition-colors text-sm uppercase tracking-wider font-medium">
             Gallery
           </a>
         </div>
