@@ -20,19 +20,23 @@ const ArtworkDetails = () => {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black mt-2 mr-3"></span>
-                  <span className="text-gray-700">Premium museum-quality canvas</span>
+                  <span className="text-gray-700">Unique coating for high-quality, vibrant images</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black mt-2 mr-3"></span>
-                  <span className="text-gray-700">Archival quality inks for vibrant, lasting color</span>
+                  <span className="text-gray-700">Sustainable, FSC-certified wooden frame</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black mt-2 mr-3"></span>
-                  <span className="text-gray-700">Multiple size options to fit your space</span>
+                  <span className="text-gray-700">Non-toxic, non-hazardous latex inks</span>
                 </li>
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black mt-2 mr-3"></span>
-                  <span className="text-gray-700">Professionally stretched on wooden frames</span>
+                  <span className="text-gray-700">Stable hanging with rubber dots for security</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="inline-block w-2 h-2 bg-black mt-2 mr-3"></span>
+                  <span className="text-gray-700">Durable cotton and polyester composite fabric</span>
                 </li>
               </ul>
             </div>
